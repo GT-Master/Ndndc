@@ -1,0 +1,9 @@
+module	name	distribution	min	init	max
+siteparams	METRX_KF_NIT_NO	uniform	0.001	0.008	0.2
+siteparams	METRX_KF_NIT_N2O	uniform	0.001	0.003	0.2
+siteparams	METRX_MUEMAX_C_NIT	uniform	0.1	5	10
+siteparams	METRX_MIC_EFF	uniform	0.1	0.848	2
+mana	fertilizer	uniform	-0.001	0  0.001
+soil	bd	uniform	-0.001	0  0.001
+soil	corg	uniform	-0.001	0  0.001
+soil	wcmax	uniform	-0.001	0  0.001
