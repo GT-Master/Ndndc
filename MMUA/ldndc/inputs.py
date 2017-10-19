@@ -72,7 +72,7 @@ class ProjectFile(object):
         props['corg'] = self.__site.get_corg_avg()
         props['norg'] = self.__site.get_norg_avg()
         props['bd'] = self.__site.get_bd_avg()
-        p#rops['scel'] = self.__site.get_scel_avg()
+        #props['scel'] = self.__site.get_scel_avg()
         props['soil'] = self.__site.get_soil()
         props['usehistory'] = self.__site.get_usehistory()
         props['wcavg'] = (self.__site.get_wcmax_avg() + self.__site.get_wcmin_avg())/2
